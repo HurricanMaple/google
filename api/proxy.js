@@ -1,7 +1,7 @@
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
 module.exports = (req, res) => {
-  let target = "https://coco.codemao.cn/";
+  let target = "https://coco.codemao.cn/editor/player/166109533?channel=h5";
   // 代理目标地址
   // 这里使用 backend 主要用于区分 vercel serverless 的 api 路径
   //   if (
